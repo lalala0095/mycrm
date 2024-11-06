@@ -14,7 +14,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
     "@webpack-cli/generators": "^3.0.7",
+    "babel-loader": "^9.2.1",
     "css-loader": "^7.1.2",
     "html-webpack-plugin": "^5.6.3",
     "prettier": "^3.3.3",
@@ -27,5 +30,8 @@
     "webpack-dev-server": "^5.1.0",
     "workbox-webpack-plugin": "^7.3.0"
   },
-  "description": "My webpack project"
+  "description": "My webpack project",
+  "dependencies": {
+    "vue-router": "^4.4.5"
+  }
 }
